@@ -1,8 +1,17 @@
+ package chapter1;
+ public class BasicLesson{
+
+ }
  class Main{
+    //public static void main(String[] args) {}
+    //static public void main(String[] args) {}
+    //public static void main(String[] marc) {}
+    //psvm
     public static void main(String[] args) {
         Client c1 = new Client();
-        System.out.println("Hello World");
+        System.out.println("Hello Worldz");
     }
+   
 
 }
 /*
@@ -23,6 +32,7 @@
     String Address;
     int idNum;
     String accType;
+    
 }
 class Transactions{
     // DateTime transDate;
