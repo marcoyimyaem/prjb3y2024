@@ -6,6 +6,8 @@ public class Tree {
         
     }
     public static void main(String[] args) {
-        System.out.println(args[1]);
+        // System.out.println(args[1]);
+        String arjeck=null;
+        System.out.println(arjeck);
     }
 }

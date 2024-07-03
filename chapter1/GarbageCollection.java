@@ -5,6 +5,7 @@ public class GarbageCollection {
         Box b1 = new Box();
         Box b2 = new Box();
         Box b3 = b1;
+        // System.out.println(b3==b1);
         b1 = null;
         b1 = new Box();
         b2 = b3;
