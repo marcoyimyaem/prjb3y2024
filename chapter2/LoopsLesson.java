@@ -31,7 +31,19 @@ public class LoopsLesson {
         b = input2.nextInt();
         System.out.println("Enter 3rd number");
         c = input3.nextInt();
-        
+        String[] colors = {"black","red","green","blue","pink","yello"};
+        for(String color: colors)
+            System.out.println(color);
+
+ROW:        for(int i=1;i<=10;i++){
+COL:            for(int j=1;j<=10;j++){
+                    if(j==5)
+//                        break COL;
+                        continue COL;
+                    System.out.print(i*j+"\t");
+                }
+                System.out.println();
+            }
         // System.out.println();
     }
     
